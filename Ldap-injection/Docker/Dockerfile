@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.16.7
 MAINTAINER Giulio Comi
 RUN apk update --no-cache && apk add python2-dev \
 python2-dev \
