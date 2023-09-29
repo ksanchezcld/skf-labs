@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.18.4
 MAINTAINER Giulio Comi <github.com/giuliocomi>
 RUN apk update --no-cache && apk add python3 \
 py3-pip \ 
