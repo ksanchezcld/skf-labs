@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.16.9
 MAINTAINER Semen Rozkhov <life.start.rs@gmail.com>
 RUN apk update --no-cache && apk add python3 \
 python3-dev \
