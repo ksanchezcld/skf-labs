@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.16.9
 MAINTAINER Glenn ten Cate <glenn.ten.cate@owasp.org>
 RUN apk update --no-cache && apk add git \
 python2-dev \
