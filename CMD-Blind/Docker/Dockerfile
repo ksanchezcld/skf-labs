@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.21.1
 MAINTAINER Alberto Rafael Rodríguez Iglesias <albertocysec@gmail.com / alberto.iglesias@owasp.org>
 RUN apk update --no-cache && apk add python3 \
 python3-dev \
